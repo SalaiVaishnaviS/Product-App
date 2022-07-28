@@ -1,4 +1,4 @@
-package App;
+package App.Model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -7,7 +7,7 @@ import javax.persistence.Id;
 
 @Entity
 public class Product {
-
+	
 	private Integer id;
 	private String name;
 	private float price;
